@@ -3,8 +3,11 @@ import base64
 import json
 
 # using an access token
-token = "xxBwUVNpxX60URWO3d9ArUwf1yAegK"
-g = Github(token)
+token = "x"
+try:
+    g = Github(token)
+except Exception as e:
+    print('GitHub Client Setup Failed. Exception: {}'.format(e))
 
 repo = g.get_repo("ocsf/ocsf-schema")
 contents = repo.get_contents("objects/device.json")
