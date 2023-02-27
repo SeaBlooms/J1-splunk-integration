@@ -7,8 +7,8 @@ import os.path
 def const():
 
     # Account-Level API Key - Admin Group
-    acct = "xx-4cf7-4271-aa69-4a34d302347d"
-    token = "xx89ed1579eace262c1e6d9399b0a771bdd0b6d553b31363736393230383636353039"
+    acct = "x"
+    token = "x"
 
     return [acct, token]
 
